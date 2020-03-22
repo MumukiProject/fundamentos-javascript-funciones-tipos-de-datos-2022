@@ -1,3 +1,6 @@
 expectation "esFinDeSemana debe devolver el resultado de una expresión booleana": 
   through `esFinDeSemana` returns with logic;
 
+
+expectation "no debe usar más de un `||`": 
+  through `esFinDeSemana` count(calls `||`) < 2;
