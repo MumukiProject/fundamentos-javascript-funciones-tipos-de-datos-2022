@@ -3,4 +3,4 @@ expectation "esFinDeSemana debe devolver el resultado de una expresión booleana
 
 
 expectation "no debe usar más de un `||`": 
-  through `esFinDeSemana` count(calls `||`) < 2;
+  through `esFinDeSemana` count(calls `||`) <= 1;
