@@ -9,3 +9,18 @@ describe("", function() {
     assert.equal(gritar("minuto"), "¡MINUTO!");
   });
 })
+
+describe("gritar", function() {
+   function safeCall(f) {
+    try { 
+      return f();
+    } catch(e) { 
+      return null;
+    }
+  }
+  
+  it("tiene que usar el parámetro", function(){
+    let mismoResultado = safeCall(() => gritar("hola") === gritar("adios"));
+    assert(!mismoResultado)
+  })
+})
