@@ -14,5 +14,5 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
-    - gritar tiene que usar signos de admiración
+    - gritar tiene que usar los signos de admiración
   then: acordate de concatenar `"¡"`, el parámetro y `"!"` usando el operador `+`
