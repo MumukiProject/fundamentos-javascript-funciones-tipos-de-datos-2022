@@ -11,16 +11,13 @@ describe("", function() {
 })
 
 describe("gritar", function() {
-   function safeCall(f) {
-    try { 
-      return f();
-    } catch(e) { 
-      return null;
-    }
-  }
+  try {
+    let mismoResultado = gritar("hola") === gritar("adios");
+    it("tiene que usar el parámetro", function(){
+      assert(!mismoResultado)
+    })    
+  } catch (e) {}
+
   
-  it("tiene que usar el parámetro", function(){
-    let mismoResultado = safeCall(() => gritar("hola") === gritar("adios"));
-    assert(!mismoResultado)
-  })
+  
 })
