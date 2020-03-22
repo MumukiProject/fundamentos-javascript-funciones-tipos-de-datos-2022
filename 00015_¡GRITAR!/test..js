@@ -19,7 +19,7 @@ describe("gritar", function() {
   } catch (e) {}
   
   try {
-    let usaAdmiracion = gritar("hola").indexOf("!") >= 0 && gritar("hola").indexOf("¡");
+    let usaAdmiracion = gritar("hola").indexOf("!") >= 0 && gritar("hola").indexOf("¡") >= 0;
     it("tiene que usar los signos de admiración", function(){
       assert(usaAdmiracion)
     })
