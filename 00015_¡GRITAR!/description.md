@@ -7,4 +7,4 @@ Por ejemplo:
 "¡MIGUEL!"
 ```
 
-> Escribí la función `gritar`. Podés usar la función `convertirEnMayuscula`, que, ehm... bueno... básicamente convierte en mayúsculas un string :stuck_out_tongue:.
+> Escribí la función `gritar`. Te dejamos para que uses la función `convertirEnMayuscula`, que, ehm... bueno... básicamente convierte en mayúsculas un string :stuck_out_tongue:.
