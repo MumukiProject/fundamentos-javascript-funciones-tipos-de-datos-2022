@@ -4,5 +4,5 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - gritar tiene que usar el parámetro
-  then: Parece que gritar siempre devuelve lo mismo :thinking_face:; ¿estás usando
-    el parámetro?
+  then: Hmm... `gritar` está devolviendo siempre lo mismo :thinking_face:; ¿estás
+    usando el parámetro?
