@@ -6,3 +6,9 @@ rules:
     - gritar tiene que usar el parámetro
   then: Hmm... `gritar` está devolviendo siempre lo mismo :thinking_face:; ¿estás
     usando el parámetro?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Declares:convertirEnMayuscula"
+  then: "¡Cuidado! No tenés que declarar `convertirEnMayuscula`; ya está lista para
+    usar"
