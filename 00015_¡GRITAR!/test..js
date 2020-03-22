@@ -17,6 +17,13 @@ describe("gritar", function() {
       assert(!mismoResultado)
     })    
   } catch (e) {}
+  
+  try {
+    let usaAdmiracion = gritar("hola").indexOf("!") >= 0;
+    it("tiene que usar signos de admiración", function(){
+      assert(usaAdmiracion)
+    })
+  } catch (e) {}  
 
   
   
