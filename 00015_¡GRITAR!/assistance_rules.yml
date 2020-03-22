@@ -10,5 +10,4 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Not:Declares:convertirEnMayuscula"
-  then: "¡Cuidado! No tenés que declarar `convertirEnMayuscula`; ya está lista para
-    usar"
+  then: No tenés que declarar `convertirEnMayuscula`; ya está lista para usar
