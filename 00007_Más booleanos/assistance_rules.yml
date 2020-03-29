@@ -19,3 +19,9 @@ rules:
     - esNumeroDeLaSuerte no tiene los argumentos de esMultiploDe invertidos
   then: ":warning: cuidado con el orden de los argumentos de `esMultiploDe`; parece
     que los tenés al invertidos"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - esNumeroDeLaSuerte no tiene los argumentos invertidos y los paréntesis mal puestos
+  then: parece que te faltan paréntesis al rededor de la condición del `||`, y además
+    tenés invertidos los argumentos de `esMultiploDe`
