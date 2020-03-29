@@ -11,8 +11,8 @@ rules:
     these_tests_failed:
     - esNumeroDeLaSuerte no tiene los paréntesis mal puestos
   then: cuando tengas  `&&` y  `||` en la misma expresión, vas a tener que poner paréntesis
-    al rededor de la condición con `||`, como por ejemplo en `haceFrio && (llueve
-    || nieva)`
+    al rededor de la condición con `||`, como por ejemplo en `(llueve || estaNublado)
+    && haceFrio`
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
@@ -23,5 +23,6 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - esNumeroDeLaSuerte no tiene los argumentos invertidos y los paréntesis mal puestos
-  then: parece que te faltan paréntesis al rededor de la condición del `||`, y además
-    tenés invertidos los argumentos de `esMultiploDe`
+  then: parece que te faltan paréntesis al rededor de la condición del `||`, como
+    por ejemplo en `(llueve || estaNublado) && haceFrio`; además tenés invertidos
+    los argumentos de `esMultiploDe`
