@@ -13,3 +13,9 @@ rules:
   then: cuando tengas  `&&` y  `||` en la misma expresión, vas a tener que poner paréntesis
     al rededor de la condición con `||`, como por ejemplo en `haceFrio && (llueve
     || nieva)`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - esNumeroDeLaSuerte no tiene los argumentos de esMultiploDe invertidos
+  then: ":warning: cuidado con el orden de los argumentos de `esMultiploDe`, ¿los
+    tenés al revés?"
