@@ -18,4 +18,4 @@ rules:
     these_tests_failed:
     - esNumeroDeLaSuerte no tiene los argumentos de esMultiploDe invertidos
   then: ":warning: cuidado con el orden de los argumentos de `esMultiploDe`; parece
-    que los tenés al revés"
+    que los tenés al invertidos"
