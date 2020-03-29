@@ -7,3 +7,4 @@ false //porque 27 no es múltiplo de 5
 ム esMultiploDe(3, 9)
 true //porque 9 es múltiplo de 3
 ```
+
