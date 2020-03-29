@@ -1,4 +1,4 @@
-¿Cómo funciona `esMultiploDe`? Aquí te pasamos algunos ejemplos de uso:
+¿Cómo funciona `esMultiploDe`? Acá te pasamos algunos ejemplos de uso:
 
 ```javascript
 ム esMultiploDe(5, 27)
