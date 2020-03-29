@@ -42,3 +42,20 @@ describe("", () => {
       assert(!esNumeroDeLaSuerte(15));
   })
 })
+
+// errores comunes, ver reglas de asistencia
+describe("esNumeroDeLaSuerte", () => {
+  let numeros = [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+  
+  it("no tiene los paréntesis mal puestos", () => {
+    assert.notDeepEqual(numeros.filter(esNumeroDeLaSuerte), [ 0, 2, 3, 4, 6, 8, 9, 10, 12, 14, 16, 18, 20 ]);  
+  })
+  
+  it("no tiene los argumentos de esMultiploDe invertidos", () => {
+    assert.notDeepEqual(numeros.filter(esNumeroDeLaSuerte), [ 1, 2, 3 ]);  
+  })
+  
+  it("no tiene los argumentos invertidos y los paréntesis mal puestos", () => {
+    assert.notDeepEqual(numeros.filter(esNumeroDeLaSuerte), [ -1, 1, 2, 3 ]);  
+  })
+})
