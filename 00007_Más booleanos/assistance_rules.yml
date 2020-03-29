@@ -17,5 +17,5 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - esNumeroDeLaSuerte no tiene los argumentos de esMultiploDe invertidos
-  then: ":warning: cuidado con el orden de los argumentos de `esMultiploDe`, ¿los
-    tenés al revés?"
+  then: ":warning: cuidado con el orden de los argumentos de `esMultiploDe`; parece
+    que los tenés al revés"
