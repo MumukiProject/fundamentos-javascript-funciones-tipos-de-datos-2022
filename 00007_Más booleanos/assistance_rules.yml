@@ -4,4 +4,5 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Not:Uses:esMultiplo"
-  then: ojo :eyes:, escribiste mal el nombre de la función que te dice si es múltiplo
+  then: ojo :eyes:, escribiste mal el nombre de la función que te dice _si el segundo
+    número es múltiplo del primero_
