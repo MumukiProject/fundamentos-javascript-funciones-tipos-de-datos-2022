@@ -6,3 +6,9 @@ rules:
     - "* Not:Uses:esMultiplo"
   then: ojo :eyes:, escribiste mal el nombre de la función que te dice _si el segundo
     número es múltiplo del primero_
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - esNumeroDeLaSuerte no tiene los paréntesis mal puestos
+  then: cuidado con los paréntesis :warning:; cuando tengas  `&&` y  `||` en la misma
+    expresión, vas a tener que poner paréntesis al rededor de la condición con `||`
