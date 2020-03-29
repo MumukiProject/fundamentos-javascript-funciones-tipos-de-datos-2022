@@ -10,6 +10,6 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - esNumeroDeLaSuerte no tiene los paréntesis mal puestos
-  then: 'cuidado con los paréntesis :warning:; cuando tengas  `&&` y  `||` en la misma
-    expresión, vas a tener que poner paréntesis al rededor de la condición con `||`.
-    Por ejemplo: `haceFrio && (llueve || nieva)`'
+  then: cuando tengas  `&&` y  `||` en la misma expresión, vas a tener que poner paréntesis
+    al rededor de la condición con `||`, como por ejemplo en `haceFrio && (llueve
+    || nieva)`
