@@ -17,4 +17,4 @@ function malTiempo(llueve, nieva, haceFrio) {
 }
 ```
 
-Pero ya fueron suficientes booleanos por ahora, ¿no? Exploremos algo más interesante: los `string`s. 
+Pero ya fueron suficientes booleanos y cuentas por ahora, ¿no? Exploremos algo más interesante: los `string`s. 
