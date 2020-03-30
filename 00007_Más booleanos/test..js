@@ -66,6 +66,6 @@ describe("esNumeroDeLaSuerte", () => {
     it("no tiene los argumentos invertidos y los paréntesis mal puestos", () => {
       assert.notDeepEqual(resultado, [ -1, 1, 2, 3 ]);  
     })  
-  } catch (e) {}
+  } catch (e) {} 
   
 })
