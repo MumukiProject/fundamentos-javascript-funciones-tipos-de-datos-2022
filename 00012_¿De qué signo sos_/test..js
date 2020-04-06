@@ -12,15 +12,3 @@ describe("", function() {
     assert.equal(signo(-65), -1)
   })
 })
-
-describe("signo", () => {
-  
-  try {
-    let resultado = [-2, -1, 0, 1, 2].every(it => typeof(signo(it)) !== 'string');
-    it("no devuelve strings", () => {
-      assert(resultado, "ojo, en algun caso estás devolviendo strings")
-    })
-  } catch (e) {}
-  
-  
-})

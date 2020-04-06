@@ -1,12 +1,4 @@
-Tené en cuenta que los signos de admiración `"¡"` y `"!"` (al igual que los espacios y otros signos de puntuación) son strings y que los strings se pueden concatenar usando el operador `+`. 
+Tené en cuenta que:
 
-Por ejemplo: 
-
-```javascript
-ム "todo" + "terreno"
-"todoterreno"
-
-ム "¡" + "Aló" + "?"
-"¿Aló?"
-```
-
+1. Los signos de admiración `"¡"` y `"!"` son strings.
+2. Los strings se pueden concatenar. 
