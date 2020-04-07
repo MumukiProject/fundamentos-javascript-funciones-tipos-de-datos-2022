@@ -5,9 +5,6 @@ expectations:
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Not:SourceRepeats:return
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
   inspection: Uses:esMultiploDe
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
