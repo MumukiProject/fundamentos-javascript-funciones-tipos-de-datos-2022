@@ -32,4 +32,4 @@ Mucho más simple, ¿no? :wink:
 >
 > Escribí la función `esNumeroDeLaSuerte` que dado un número diga si cumple la lógica anterior.
 >
-> ¡No vale usar `if`! Pero podés usar la función `esMultiploDe`, que recibe dos números y te dice si el segundo es múltiplo del primero.
+> ¡No vale usar `if`! Pero podés usar la función `esMultiploDe`, que recibe dos números y te dice si el **segundo** es múltiplo del **primero**.

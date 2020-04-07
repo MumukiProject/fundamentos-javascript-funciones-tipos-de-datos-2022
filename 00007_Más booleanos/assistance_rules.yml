@@ -1,0 +1,26 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Uses:esMultiplo"
+  then: ojo :eyes:, escribiste mal el nombre de la función que te dice _si el segundo
+    número es múltiplo del primero_
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - esNumeroDeLaSuerte no tiene los paréntesis mal puestos
+  then: vas a necesitar colocar la condición de _es múltiplo de 2 o de 3_ entre paréntesis,
+    para que no se mezclen los `||` y `&&`
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - esNumeroDeLaSuerte no tiene los argumentos de esMultiploDe invertidos
+  then: ":warning: cuidado con el orden de los argumentos de `esMultiploDe`; parece
+    que los tenés al invertidos"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - esNumeroDeLaSuerte no tiene los argumentos invertidos y los paréntesis mal puestos
+  then: parece que te faltan paréntesis alrededor de la condición de _es múltiplo
+    de 2 o de 3_; además tenés invertidos los argumentos de `esMultiploDe`

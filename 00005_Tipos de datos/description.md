@@ -5,7 +5,7 @@ Como acabamos de ver, en JavaScript existen al menos números y booleanos. Sin e
 |Números        |cantidades               | `4947`   | `+`, `-`, `*`, `%`, `<`, etc   |
 |Boolean        |valores de verdad        | `true`   | `&&`, `!`, etc              
 |Strings        |texto                    | `"hola"` | ...en breve lo veremos...      |
-|Arrays         |conjuntos de cosas       | `[1, 9]` | ...en breve lo veremos...      |
+|Listas         |conjuntos de cosas       | `[1, 9]` | ...en breve lo veremos...      |
 
 
 Además, existen operaciones que sirven para todos los tipos de datos, por ejemplo:

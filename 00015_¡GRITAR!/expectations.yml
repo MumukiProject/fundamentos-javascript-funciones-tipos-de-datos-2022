@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:gritar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:Declares:convertirEnMayuscula
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: gritar
+  inspection: Uses:convertirEnMayuscula

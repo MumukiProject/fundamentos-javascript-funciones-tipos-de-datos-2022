@@ -1,0 +1,2 @@
+expectation "esFinDeSemana debe devolver el resultado de una expresión booleana": 
+  through `esFinDeSemana` returns with logic;

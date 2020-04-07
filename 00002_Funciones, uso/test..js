@@ -1,4 +1,4 @@
-describe("", function() {
+describe("anterior", function() {
   it("anterior(1) es 0", function() {
     assert.equal(anterior(1), 0);
   });

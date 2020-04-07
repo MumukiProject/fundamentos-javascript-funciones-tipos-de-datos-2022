@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - signo no devuelve strings
+  then: 'cuidado con las comillas: `signo` tiene que devolver los números `1`, `-1`
+    y `0`, no los _strings_ `"1"`, `"-1"` y `"0"`'

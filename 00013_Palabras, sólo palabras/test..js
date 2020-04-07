@@ -1,6 +1,6 @@
 describe("", function() {
   it('esFinDeSemana("sábado")', function() {
-    assert(esFinDeSemana("sábado"));
+    assert(esFinDeSemana("sábado") || esFinDeSemana("sabado"));
   });
   it('esFinDeSemana("domingo")', function() {
     assert(esFinDeSemana("domingo"));

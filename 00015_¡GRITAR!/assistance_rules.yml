@@ -1,0 +1,18 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - gritar tiene que usar el parámetro
+  then: hmm... `gritar` está devolviendo siempre lo mismo :thinking_face:; ¿estás
+    usando el parámetro?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Declares:convertirEnMayuscula"
+  then: no tenés que declarar `convertirEnMayuscula`; ya está lista para usar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_tests_failed:
+    - gritar tiene que usar los signos de admiración
+  then: acordate de concatenar `"¡"`, el parámetro y `"!"` usando el operador `+`
