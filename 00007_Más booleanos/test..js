@@ -20,6 +20,21 @@ describe("numeros positivos menores a 100 y diferentes de 15", () => {
   })
 })
 
+
+describe("numeros mayores a 100", () => {
+  it("esNumeroDeLaSuerte(101) es falso", () => {
+      assert(!esNumeroDeLaSuerte(101), "esNumeroDeLaSuerte(101) debería ser falso");
+  })
+  
+  it("esNumeroDeLaSuerte(200) es falso", () => {
+      assert(!esNumeroDeLaSuerte(200), "esNumeroDeLaSuerte(200) debería ser falso");
+  })
+  
+  it("esNumeroDeLaSuerte(500) es falso", () => {
+      assert(!esNumeroDeLaSuerte(500), "esNumeroDeLaSuerte(500) debería ser falso");
+  })
+})
+
 describe("numeros negativos", () => {
   it("esNumeroDeLaSuerte(-10) es falso", () => {
       assert(!esNumeroDeLaSuerte(-10), "esNumeroDeLaSuerte(-10) debería ser falso");
