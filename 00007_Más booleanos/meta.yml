@@ -1,6 +1,10 @@
 ---
 locale: es
-tags: []
+tags:
+- booleanos
+- expresiones
+- and
+- operadores-booleanos
 layout: input_bottom
 editor: code
 type: problem

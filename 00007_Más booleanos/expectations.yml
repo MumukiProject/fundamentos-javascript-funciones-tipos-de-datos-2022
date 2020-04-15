@@ -5,7 +5,4 @@ expectations:
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Uses:esMultiploDe
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: Not:Uses:esMultiplo
+  inspection: DeclaresComputationWithArity1:esNumeroDeLaSuerte

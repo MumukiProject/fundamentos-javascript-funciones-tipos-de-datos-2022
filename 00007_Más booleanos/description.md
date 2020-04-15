@@ -24,12 +24,10 @@ function esMayorDeEdad(edad) {
 
 Mucho más simple, ¿no? :wink:
 
-> Jorge dice que para él un número es de la suerte si
+> Para Ema un número es de la suerte si:
 >
 > * es positivo, y
-> * es múltiplo de 2 o de 3, y
-> * no es el 15
+> * es menor a 100, y
+> * no es el 15.
 >
-> Escribí la función `esNumeroDeLaSuerte` que dado un número diga si cumple la lógica anterior.
->
-> ¡No vale usar `if`! Pero podés usar la función `esMultiploDe`, que recibe dos números y te dice si el **segundo** es múltiplo del **primero**.
+> Escribí la función `esNumeroDeLaSuerte` que dado un número diga si cumple la lógica anterior. ¡No vale usar `if`! 
