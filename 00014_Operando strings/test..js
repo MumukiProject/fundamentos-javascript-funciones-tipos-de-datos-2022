@@ -20,5 +20,5 @@ describe("longitudNombreCompleto", () => {
       it("no falta contemplar el espacio", () => {
         assert(resultado, "¡Te falta contemplar el espacio!")
       })
-    catch(e){}
+    } catch(e){}
 })
