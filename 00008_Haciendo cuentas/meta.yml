@@ -1,6 +1,9 @@
 ---
 locale: es
-tags: []
+tags:
+- math
+- matematica
+- abs
 layout: input_bottom
 editor: 0
 type: playground
