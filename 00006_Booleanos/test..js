@@ -40,21 +40,22 @@ describe("", function() {
   });
 })
 
-describe("estaFueraDeRango", () => {
-  try {
-    let resultado = estaFueraDeRango(2, 0, 100)  === null || estaFueraDeRango(2, 0, 100)  === undefined || estaFueraDeRango(2, 0, 100)  === null || estaFueraDeRango(2, 0, 100)  === undefined;
-    it("devuelve siempre algo", () => {
-      assert(!resultado, "ojo, tenés que siempre devolver un valor booleano")  
-    })
-  } catch (e) {}
-})
-
 
 describe("estaEntre", () => {
   try {
-    let resultado = estaEntre(200, 54, 112)  === null || estaEntre(200, 54, 112)  === undefined || estaEntre(200, 54, 112)  === null || estaEntre(200, 54, 112)  === undefined;
+    let resultado = estaEntre(200, 54, 112)  === null || estaEntre(200, 54, 112)  === undefined || estaEntre(2, 0, 100)  === null || estaEntre(2, 0, 100)  === undefined;
     it("devuelve siempre algo", () => {
       assert(!resultado, "ojo, tenés que siempre devolver un valor booleano")  
     })
   } catch (e) {}
 })
+
+describe("estaFueraDeRango", () => {
+  try {
+    let resultado = estaFueraDeRango(2, 0, 100)  === null || estaFueraDeRango(2, 0, 100)  === undefined || estaFueraDeRango(12, 1, 10)  === null || estaFueraDeRango(12, 1, 10)  === undefined;
+    it("devuelve siempre algo", () => {
+      assert(!resultado, "ojo, tenés que siempre devolver un valor booleano")  
+    })
+  } catch (e) {}
+})
+
