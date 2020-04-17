@@ -7,11 +7,11 @@ expectations:
   binding: anteriorDelTriple
   inspection: Uses:anterior
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: triple
-  inspection: Uses
+  binding: "*"
+  inspection: Declares:triple
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: anterior
-  inspection: Uses
+  binding: "*"
+  inspection: Declares:anterior
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: anteriorDelTriple
-  inspection: Uses
+  binding: "*"
+  inspection: Declares:anteriorDelTriple

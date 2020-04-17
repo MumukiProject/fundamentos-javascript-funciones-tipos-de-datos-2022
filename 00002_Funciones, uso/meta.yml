@@ -1,6 +1,11 @@
 ---
 locale: es
-tags: []
+tags:
+- funciones
+- composicion
+- matematica
+- numeros
+- invocacion
 layout: input_bottom
 editor: code
 type: problem
