@@ -11,6 +11,6 @@ Para entender mejor cómo funciona, en qué puede ayudarnos y algunos consejos s
 >
 >   * `4 + 5`
 >   * `absoluto(-20)`
->   * `funcionLoca(1, 2, 3)` (asumí que ya la codificamos nosotros por vos)
+>   * `funcionMisteriosa(1, 2, 3)` (ya la declaramos por vos y la podés usar)
 
 

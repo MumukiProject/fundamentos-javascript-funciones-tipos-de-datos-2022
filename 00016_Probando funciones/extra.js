@@ -1,3 +1,3 @@
-function funcionLoca(x, y, z) {
+function funcionMisteriosa(x, y, z) {
   return (x + y) * z
 }
