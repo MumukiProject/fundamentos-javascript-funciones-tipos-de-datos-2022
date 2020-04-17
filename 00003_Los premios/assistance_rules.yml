@@ -4,7 +4,7 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Declares:medallaSegunPuesto"
-  then: 'Cuidado, tenés que definir `medallaSegunPuesto` :medal:'
+  then: 'cuidado, tenés que definir `medallaSegunPuesto` :medal:'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
