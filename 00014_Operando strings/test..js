@@ -9,3 +9,16 @@ describe("", function() {
     assert.equal(longitudNombreCompleto("Juana", "Azurduy"), 13);
   });
 })
+
+
+describe("longitudNombreCompleto", () => {
+    try {
+      let resultado = [
+        longitudNombreCompleto("", ""),
+        longitud_nombreCompleto("abc", "d"),
+      ] !== [0, 4];
+      it("no falta contemplar el espacio", () => {
+        assert(resultado, "¡Te falta contemplar el espacio!")
+      })
+    catch(e){}
+})
