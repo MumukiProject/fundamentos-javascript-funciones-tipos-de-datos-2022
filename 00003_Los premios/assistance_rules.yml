@@ -9,5 +9,5 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - medallaSegunPuesto UsesIf
-  then: 'Si el puesto es `1` tenés que devolver `"oro"`, si el puesto es `2`, tenés
+  then: 'si el puesto es `1` tenés que devolver `"oro"`, si el puesto es `2`, tenés
     que devolver `"plata"` y así; quizás acá un `if` pueda ayudarnos :smile:'
