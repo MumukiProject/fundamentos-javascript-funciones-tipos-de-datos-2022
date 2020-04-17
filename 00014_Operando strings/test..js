@@ -13,10 +13,7 @@ describe("", function() {
 
 describe("longitudNombreCompleto", () => {
     try {
-      let resultado = [
-        longitudNombreCompleto("", ""),
-        longitudNombreCompleto("abc", "d"),
-      ] !== [0, 4];
+      let resultado = longitudNombreCompleto("", "") !== 0 && longitudNombreCompleto("abc", "d") !== 4;
       it("no falta contemplar el espacio", () => {
         assert(resultado, "¡Te falta contemplar el espacio!")
       })
