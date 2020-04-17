@@ -3,3 +3,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Declares:extraer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: extraer
+  inspection: Uses:max
