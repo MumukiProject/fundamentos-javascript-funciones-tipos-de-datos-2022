@@ -2,16 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity3:estaEntre
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresComputationWithArity3:estaFueraDeRango
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
   inspection: Except:HasRedundantIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:estaEntre
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity3:estaEntre
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Declares:estaFueraDeRango
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:estaEntre
+  inspection: DeclaresComputationWithArity3:estaFueraDeRango
