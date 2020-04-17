@@ -1,14 +1,13 @@
-Como acabamos de ver, en JavaScript existen al menos números y booleanos. Sin embargo, no son los únicos tipos de datos:
+Como acabamos de ver, en JavaScript existen números, booleanos y strings:
 
 |  Tipo de dato |  Representa             |  Ejemplo |  Operaciones                   |
 |---------------|-------------------------|----------|--------------------------------|
 |Números        |cantidades               | `4947`   | `+`, `-`, `*`, `%`, `<`, etc   |
-|Boolean        |valores de verdad        | `true`   | `&&`, `!`, etc              
-|Strings        |texto                    | `"hola"` | ...en breve lo veremos...      |
-|Listas         |conjuntos de cosas       | `[1, 9]` | ...en breve lo veremos...      |
+|Boolean        |valores de verdad        | `true`   | `&&`, `!`, etc                 |
+|Strings        |texto                    | `"hola"` | `longitud`, `comienzaCon`, etc  |
 
 
-Además, existen operaciones que sirven para todos los tipos de datos, por ejemplo:
+Además, existen operaciones que sirven para todos los _tipos de datos_, por ejemplo:
 
 * `===`: nos dice si dos cosas son iguales
 * `!==`: nos dice si dos cosas son diferentes
