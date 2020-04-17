@@ -33,9 +33,9 @@ describe("", function() {
     assert(estaFueraDeRango(200, 54, 112) === true);
   });
   it("estaFueraDeRango(67, 0, 100) es false", function() {
-    assert(!estaFueraDeRango(67, 0, 100) === true);
+    assert(estaFueraDeRango(67, 0, 100) === false);
   });
   it("estaFueraDeRango(2, 0, 100) es false", function() {
-    assert(!estaFueraDeRango(2, 0, 100) === true);
+    assert(estaFueraDeRango(2, 0, 100) === false);
   });
 })
