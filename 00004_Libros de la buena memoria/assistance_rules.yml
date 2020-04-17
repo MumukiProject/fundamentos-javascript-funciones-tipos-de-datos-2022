@@ -10,4 +10,4 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - leGustaLeer devuelve siempre algo
-  then: ":warning: no te olvides de usar `return` para retornar la expresión"
+  then: ":warning: no te olvides de usar `return` para devolver la expresión"
