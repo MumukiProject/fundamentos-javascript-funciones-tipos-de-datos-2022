@@ -1,11 +1,11 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: estaEntre
-  inspection: HasBinding
+  binding: "*"
+  inspection: DeclaresComputationWithArity3:estaEntre
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: estaFueraDeRango
-  inspection: HasBinding
+  binding: "*"
+  inspection: DeclaresComputationWithArity3:estaFueraDeRango
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:HasRedundantIf
