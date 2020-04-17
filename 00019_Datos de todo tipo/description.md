@@ -3,3 +3,4 @@ Uff, ¡vimos un montón de cosas! :sweat_smile: Aprendimos sobre la sintaxis de 
 ¡Pero no tan rápido! :person_running:
 
 > Antes de terminar un último desafío: ¿Cuál es el valor de las siguientes expresiones? ¡Marcá todas las correctas!
+ 
