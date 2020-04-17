@@ -1,8 +1,0 @@
----
-rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    these_expectations_failed:
-    - "* Not:SourceRepeats:return"
-  then: en este ejercicio tenés que evaluar una sola condición (si el número es par)
-    y devolver su resultado, por lo que con un único `return` alcanza
