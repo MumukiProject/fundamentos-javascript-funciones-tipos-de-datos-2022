@@ -8,4 +8,4 @@ expectations:
   inspection: Declares:maximo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:maximo
+  inspection: DeclaresComputationWithArity2:maximo
