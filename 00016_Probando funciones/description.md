@@ -10,7 +10,7 @@ Para entender mejor cómo funciona, en qué puede ayudarnos y algunos consejos s
 > Veamos si se entiende, probá en la consola las siguientes expresiones:
 >
 >   * `4 + 5`
->   * `absoluto(-20)`
+>   * `Math.round(4.5)`
 >   * `funcionMisteriosa(1, 2, 3)` (ya la declaramos por vos y la podés usar)
 
 

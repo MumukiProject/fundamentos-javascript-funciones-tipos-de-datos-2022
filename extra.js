@@ -1,30 +1,26 @@
-function longitud(secuencia) {
-  return secuencia.length; 
-}
-function rango(s, e) {
-  let r = [];
-  for (let i = s; i <= e; i++) {
-     r.push(i)
-  }
-  return r;
+// Nos dice cuan largo es un string
+//
+// Por ejemplo:
+//
+//  longitud("hola") devuelve 4
+function longitud(unString) {
+  return unString.length; 
 }
 
-function imprimir(s) {
-  console.log(s)
+// Convierte una palabra en mayúsculas
+//
+// Por ejemplo: 
+//
+//   convertirEnMayuscula("hola") devuelve "HOLA"
+function convertirEnMayuscula(unString) {
+  return unString.toUpperCase()
 }
 
-function poner(a, e) {
-   array.push(e);
-}
-
-function absoluto(x) {
-  return Math.abs(x)
-}
-
-function convertirEnMayuscula(x) {
-  return x.toUpperCase()
-}
-
-function comienzaCon(x, y) {
-  return x.startsWith(x, y);
+// Nos dice si unString empieza con otroString
+//
+// Por ejemplo: 
+//
+//   comienzaCon("hola todo el mundo", "hola todo") devuelve true
+function comienzaCon(unString, otroString) {
+  return unString.startsWith(otroString);
 }
