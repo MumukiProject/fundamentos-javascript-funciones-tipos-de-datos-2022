@@ -5,3 +5,8 @@ rules:
     these_expectations_failed:
     - "* Not:SourceContains:2/"
   then: no es lo mismo hacer un número dividido 2 que 2 dividido ese número
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:SourceContains:2 /"
+  then: no es lo mismo hacer un número dividido 2 que 2 dividido ese número
