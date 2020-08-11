@@ -1,7 +1,0 @@
----
-rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    error_contains: '"0.1 == 10"'
-  then: "¡Cuidado! :warning: No es lo mismo hacer un número dividido 2 que 2 dividido
-    ese número"
