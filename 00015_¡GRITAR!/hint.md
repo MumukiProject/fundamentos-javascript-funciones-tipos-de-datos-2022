@@ -6,7 +6,7 @@ Por ejemplo:
 ム "todo" + "terreno"
 "todoterreno"
 
-ム "¡" + "Aló" + "?"
+ム "¿" + "Aló" + "?"
 "¿Aló?"
 ```
 
