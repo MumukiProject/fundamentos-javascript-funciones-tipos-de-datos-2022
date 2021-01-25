@@ -1,0 +1,2 @@
+expectation "Para resolver este ejercicio recordá que contás con `convertirEnMayuscula`.":
+  uses `convertirEnMayuscula` || uses `toUpperCase`
