@@ -1,2 +1,2 @@
 expectation "Para resolver este ejercicio recordá que contás con `longitud`.":
-  uses `longitud` || uses `length`
+  calls `longitud` || calls `length`
