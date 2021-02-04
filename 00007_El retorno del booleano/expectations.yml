@@ -6,6 +6,3 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresComputationWithArity1:esNumeroDeLaSuerte
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: esNumeroDeLaSuerte
-  inspection: Returns
