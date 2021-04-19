@@ -5,4 +5,4 @@ expectations:
   inspection: Declares:mitad
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Except:HasMisspelledIdentifiers
+  inspection: Except:HasDeclarationTypos
