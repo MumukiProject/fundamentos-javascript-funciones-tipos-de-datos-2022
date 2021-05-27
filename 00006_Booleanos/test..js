@@ -11,11 +11,11 @@ describe("", function() {
   it("estaEntre(200, 54, 112) es false", function() {
     assert(estaEntre(200, 54, 112) === false);
   });
-  it("estaEntre(67, 0, 100) es true", function() {
-    assert(estaEntre(67, 0, 100) === true);
+  it("estaEntre(67, 50, 100) es true", function() {
+    assert(estaEntre(67, 50, 100) === true);
   });
-  it("estaEntre(2, 0, 100) es true", function() {
-    assert(estaEntre(2, 0, 100) === true);
+  it("estaEntre(2, 1, 100) es true", function() {
+    assert(estaEntre(2, 1, 100) === true);
   });
 })
 
