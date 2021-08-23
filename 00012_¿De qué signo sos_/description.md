@@ -3,7 +3,7 @@ Ya utilizamos la alternativa condicional para realizar una acción específica c
 Pero... ¿Si necesitamos más de dos alternativas? :thinking:
 Veamos un ejemplo:
 
-Agus se olvida siempre de como tiene que cuidar sus plantas :seedling:, por eso definió la función `cuidadoSegun(dia)` que le recuerda que los lunes tiene que fertilizar la planta, los viernes la tiene que fumigar y el resto de los días la tiene que regar.
+Agus se olvida siempre de como tiene que cuidar sus plantas :seedling:, por eso definió la función `cuidadoSegun(dia)` que le recuerda que los lunes tiene que fertilizarlas, los viernes las tiene que fumigar y el resto de los días las tiene que regar.
 
 ``` javascript
 function cuidadoSegun(dia) {
