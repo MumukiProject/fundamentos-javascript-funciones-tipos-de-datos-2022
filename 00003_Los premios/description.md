@@ -1,4 +1,4 @@
-El jurado de un torneo nos pidió que desarrollemos una función `medallaSegunPuesto` :medal: que devuelva la medalla que le corresponde a los primeros puestos, según la siguiente lógica: 
+El jurado de un torneo nos pidió la función `medallaSegunPuesto` :medal: que retorne la medalla que le corresponde a los primeros puestos, según la siguiente lógica: 
 
 * primer puesto: le corresponde `"oro"`
 * segundo puesto: le corresponde `"plata"`
@@ -15,5 +15,5 @@ Ejemplo:
 "nada"
 ```
 
-> Escribí, y probá en la consola, la función `medallaSegunPuesto`
+> Definí, y probá en la consola, la función `medallaSegunPuesto`
 
