@@ -18,7 +18,7 @@ false
 true
 ```
 
-> Veamos si queda claro: escribí la función `esFinDeSemana` que tome un string que represente el nombre de un día de la semana, y nos diga si es `"sábado"` o `"domingo"`.
+> Veamos si queda claro: definí la función `esFinDeSemana` que tome un string que represente el nombre de un día de la semana, y nos diga si es `"sábado"` o `"domingo"`.
 > 
 > ```javascript
 > ム esFinDeSemana("sábado")
