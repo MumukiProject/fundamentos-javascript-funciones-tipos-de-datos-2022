@@ -11,6 +11,6 @@ Para entender mejor cómo funciona, en qué puede ayudarnos y algunos consejos s
 >
 >   * `4 + 5`
 >   * `Math.round(4.5)`
->   * `funcionMisteriosa(1, 2, 3)` (ya la declaramos por vos y la podés usar)
+>   * `funcionMisteriosa(1, 2, 3)` (ya la definimos por vos y la podés usar)
 
 
