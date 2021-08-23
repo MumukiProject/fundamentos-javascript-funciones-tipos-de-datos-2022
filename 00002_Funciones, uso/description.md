@@ -1,4 +1,4 @@
-¿Y esto con qué se come? Digo, ehm.... ¿cómo se usan estas funciones? ¿Cómo hago para pasarles parámetros y obtener resultados? 
+¿Y esto con qué se come? Digo, ehm.... ¿cómo se usan estas funciones? ¿Cómo hago para pasarles argumentos y obtener resultados? 
 
 Basta con poner el nombre de la función y, entre paréntesis, sus argumentos. ¡Es igual que en Gobstones!
 
@@ -34,7 +34,7 @@ function siguienteDelDoble(numero) {
 }
 ```
 
-> Veamos si se entiende; escribí las siguientes funciones: 
+> Veamos si se entiende; definí las siguientes funciones: 
 > 
 > * `anterior`: toma un número y devuelve ese número menos uno
 > * `triple`: devuelve el triple de un número
