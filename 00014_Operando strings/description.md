@@ -25,7 +25,7 @@ true
 false
 ```
 
-> Veamos si queda claro: escribí una función `longitudNombreCompleto`, que tome un nombre y un apellido, y devuelva su longitud total, contando un espacio extra para separar a ambos:
+> Veamos si queda claro: definí una función `longitudNombreCompleto`, que tome un nombre y un apellido, y devuelva su longitud total, contando un espacio extra para separar a ambos:
 >
 >```javascript
 > ム longitudNombreCompleto("Cosme", "Fulanito")
