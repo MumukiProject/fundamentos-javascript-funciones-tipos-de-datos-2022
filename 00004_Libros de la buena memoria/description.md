@@ -27,6 +27,6 @@ Como ves, en JavaScript contamos con operadores como `===`, `>=`, `>`, `<`,`<=` 
 > true
 > ```
 > 
-> Desarrollá y probá en la consola la función `leGustaLeer`.
+> Definí y probá en la consola la función `leGustaLeer`.
 
 
