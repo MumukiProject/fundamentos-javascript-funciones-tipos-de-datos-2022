@@ -36,7 +36,7 @@ function siguienteDelDoble(numero) {
 
 > Veamos si se entiende; definí las siguientes funciones: 
 > 
-> * `anterior`: toma un número y retorne ese número menos uno
-> * `triple`: retorna el triple de un número
+> * `anterior`: toma un número y devuelve ese número menos uno
+> * `triple`: devuelve el triple de un número
 > * `anteriorDelTriple`, que combina las dos funciones anteriores: multiplica a un número por 3 y le resta 1
 > 
