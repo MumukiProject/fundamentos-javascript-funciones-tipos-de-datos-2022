@@ -1,4 +1,4 @@
-¿No estás convencido de que el máximo entre `saldo - monto`  y `0` resuelve nuestro problema? Compará estos ejemplos con los dos anteriores:
+¿No te convencimos de que el máximo entre `saldo - monto`  y `0` resuelve nuestro problema? Compará estos ejemplos con los dos anteriores:
 
 ```javascript
 ム Math.max(100 - 30, 0)
