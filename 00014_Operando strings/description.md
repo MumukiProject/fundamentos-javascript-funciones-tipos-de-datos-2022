@@ -1,4 +1,4 @@
-¿Y qué podemos hacer con los strings, además de compararlos? ¡Varias cosas!
+¿Y qué podemos hacer con los strings, además de compararlos? ¡Varias cosas! 
 
 JavaScript ya viene con varias operaciones primitivas. Una de ellas es el operador `+` (sí, el mismo de la suma), que nos permite _concatenar_ dos strings, es decir, obtener **uno nuevo** que los junta:
 
