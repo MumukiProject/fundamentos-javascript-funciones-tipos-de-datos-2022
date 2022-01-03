@@ -18,7 +18,12 @@ Otra es la primitiva `.length`, que nos permite averiguar su cantidad de letras 
 5
 ```
 
-Como vemos, para usar a `.length` tenemos que ponerlo _pegadito_ al string que estamos operando.
+Como vemos, para usar a `.length` tenemos que ponerlo _pegadito_ al string que estamos operando. :eye: Pero ojo, porque si ese string es el resultado de otra operación, vamos a tener que ponerlo entre paréntesis: 
+
+```javascript
+ム ("multi" + "color").length
+10
+```
 
 Usando una sintaxis parecida, podemos preguntarle a un string si uno comienza con otro usando la primitiva `.startsWith()`:
 
