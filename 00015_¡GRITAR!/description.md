@@ -10,4 +10,10 @@ Por ejemplo:
 "¡BENITO!"
 ```
 
-> Definí la función `gritar`. Te dejamos para que uses la función `convertirEnMayuscula`, que, ehm... bueno... básicamente convierte en mayúsculas un string :stuck_out_tongue:.
+> Definí la función `gritar`. Tené en cuenta que en JavaScript existe la primitiva `.toUpperCase()` que convierte un string a mayúsculas:
+>
+>
+> ```javascript
+> ム "hola".toUpperCase()
+> "HOLA"
+> ```

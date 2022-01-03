@@ -4,7 +4,7 @@ Como acabamos de ver, en JavaScript existen números, booleanos y strings:
 |---------------|-------------------------|----------|--------------------------------|
 |Números        |cantidades               | `4947`   | `+`, `-`, `*`, `%`, `<`, etc   |
 |Boolean        |valores de verdad        | `true`   | `&&`, `!`, etc                 |
-|Strings        |texto                    | `"hola"` | `longitud`, `comienzaCon`, etc  |
+|Strings        |texto                    | `"hola"` | `.length`, `.toUpperCase()`, etc  |
 
 
 Además, existen operaciones que sirven para todos los _tipos de datos_, por ejemplo:
@@ -21,4 +21,3 @@ Además, existen operaciones que sirven para todos los _tipos de datos_, por eje
 > * `8 > 6` (ok, los números se pueden ordenar)
 > * `!true` (ok, los booleanos se pueden _negar_)
 > * `false / true` (no está bien, ¡los booleanos no se pueden dividir!)
-

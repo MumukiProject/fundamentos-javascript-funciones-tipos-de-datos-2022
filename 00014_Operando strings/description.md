@@ -1,13 +1,6 @@
-¿Y qué podemos hacer con los strings, además de compararlos? ¡Varias cosas! Por ejemplo, podemos preguntarles cuál es su cantidad de letras:
+¿Y qué podemos hacer con los strings, además de compararlos? ¡Varias cosas!
 
-```javascript
-ム longitud("biblioteca")
-10
-ム longitud("babel")
-5
-```
-
-O también podemos _concatenarlos_, es decir, obtener **uno nuevo** que junta dos strings:
+JavaScript ya viene con varias operaciones primitivas. Una de ellas es el operador `+` (sí, el mismo de la suma), que nos permite _concatenar_ dos strings, es decir, obtener **uno nuevo** que los junta:
 
 ```javascript
 ム "aa" + "bb"
@@ -16,12 +9,23 @@ O también podemos _concatenarlos_, es decir, obtener **uno nuevo** que junta do
 "sus anaqueles registran todas las combinaciones"
 ```
 
-O podemos preguntarles si uno comienza con otro:
+Otra es la primitiva `.length`, que nos permite averiguar su cantidad de letras y se usa así:
 
 ```javascript
-ム comienzaCon("una página", "una")
+ム "biblioteca".length
+10
+ム "babel".length
+5
+```
+
+Como vemos, para usar a `.length` tenemos que ponerlo _pegadito_ al string que estamos operando.
+
+Usando una sintaxis parecida, podemos preguntarle a un string si uno comienza con otro usando la primitiva `.startsWith()`:
+
+```javascript
+ム "una página".startsWith("una")
 true
-ム comienzaCon("la biblioteca", "todos los fuegos")
+ム "la biblioteca".startsWith("todos los fuegos")
 false
 ```
 

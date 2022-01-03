@@ -1,2 +1,2 @@
-expectation "Para resolver este ejercicio recordá que contás con `convertirEnMayuscula`.":
-  calls `convertirEnMayuscula` || calls `toUpperCase`
+expectation "Para resolver este ejercicio recordá que contás con `.toUpperCase()`.":
+  calls calls `toUpperCase`

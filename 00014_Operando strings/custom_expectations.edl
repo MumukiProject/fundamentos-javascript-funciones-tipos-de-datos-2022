@@ -1,2 +1,2 @@
-expectation "Para resolver este ejercicio recordá que contás con `longitud`.":
-  calls `longitud` || uses size
+expectation "Para resolver este ejercicio recordá que contás con `.length`.":
+  calls uses size
