@@ -1,12 +1,12 @@
 describe("", function() {
-  it('longitudNombreCompleto("Max", "Power")', function() {
-    assert.equal(longitudNombreCompleto("Max", "Power"), 9);
+  it('longitudNombreCompleto("Augusta", "Ada", "Lovelace")', function() {
+    assert.equal(longitudNombreCompleto("Augusta", "Ada", "Lovelace"), 20);
   });
-  it('longitudNombreCompleto("Mercedes", "Sosa")', function() {
-    assert.equal(longitudNombreCompleto("Mercedes", "Sosa"),13 );
+  it('longitudNombreCompleto("Haydée", "Mercedes", "Sosa")', function() {
+    assert.equal(longitudNombreCompleto("Haydée", "Mercedes", "Sosa"),20 );
   });
-  it('longitudNombreCompleto("Juana", "Azurduy")', function() {
-    assert.equal(longitudNombreCompleto("Juana", "Azurduy"), 13);
+  it('longitudNombreCompleto("Elsa", "Isabel", "Bornemann")', function() {
+    assert.equal(longitudNombreCompleto("Elsa", "Isabel", "Bornemann"), 21);
   });
 })
 
