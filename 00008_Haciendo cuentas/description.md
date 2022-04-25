@@ -12,5 +12,7 @@ function cuantoSaleAproximadamente(precio, impuestos) {
 >
 > * `Math.round(4.4)`
 > * `Math.round(4.6)`
-> * `Math.max(4, 7)`
 > * `Math.min(4, 7)`
+> * `Math.max(4, 7)`
+>
+> ¿Te imaginás que hace cada una de ellas? :thinking:

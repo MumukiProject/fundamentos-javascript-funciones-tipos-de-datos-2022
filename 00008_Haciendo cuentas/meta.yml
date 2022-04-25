@@ -6,9 +6,12 @@ tags:
 - abs
 layout: input_bottom
 editor: 0
-type: playground
+type: interactive
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
 choices: []
+goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  kind: last_query_outputs
+  output: '7'
 name: Haciendo cuentas
