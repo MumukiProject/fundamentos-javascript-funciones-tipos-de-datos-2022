@@ -1,3 +1,3 @@
-Contar con una consola en la que podemos probar expresiones es múy útil, porque ahora podemos _"ver"_ al resultado de una función aún sin un tablero.  
+Contar con una consola en la que podemos probar expresiones es múy útil, porque ahora podemos _"chequear"_ los resultados de una función aún sin un tablero. 
 
-¿Ves como de a poco no vamos dando cuenta de que el tablero no es tan importante?
+Por ejemplo, gracias a la consola habrás notado que `funcionMisteriosa` suma al primer y segundo argumento y multiplica el resultado por el tercero. :wink:
