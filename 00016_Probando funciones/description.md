@@ -9,7 +9,7 @@ Para entender mejor cómo funciona, en qué puede ayudarnos y algunos consejos s
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X8_vRm695B8?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 > Veamos si se entiende, probá en la consola las siguientes expresiones en orden:
 >
->   * `4 + 5`
+>   * `4 + 8`
 >   * `Math.round(4.5)`
 >   * `funcionMisteriosa(1, 2, 3)` (ya la definimos por vos y la podés usar, ¿se te ocurre qué hace?)
 
