@@ -8,7 +8,7 @@ function cuantoSaleAproximadamente(precio, impuestos) {
 }
 ```
 
-> Probá en la consola las siguientes expresiones:
+> Probá en la consola las siguientes expresiones en orden:
 >
 > * `Math.round(4.4)`
 > * `Math.round(4.6)`
