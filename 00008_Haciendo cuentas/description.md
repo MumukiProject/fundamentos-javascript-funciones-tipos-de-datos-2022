@@ -8,11 +8,21 @@ function cuantoSaleAproximadamente(precio, impuestos) {
 }
 ```
 
-> Probá en la consola las siguientes expresiones en orden:
+> Probá las siguientes expresiones en orden, para eso copiá y pegá cada una en la consola:
 >
-> * `Math.round(4.4)`
-> * `Math.round(4.6)`
-> * `Math.min(4, 7)`
-> * `Math.max(4, 7)`
+>``` javascript
+ム Math.round(4.4)
+```
 >
+>``` javascript
+ム Math.round(4.6)
+``` 
+>
+>``` javascript
+ム Math.min(4, 7)
+```   
+>
+>``` javascript
+ム Math.max(4, 7)
+```
 > ¿Te imaginás que hace cada una de ellas? :thinking:
