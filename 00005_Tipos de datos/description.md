@@ -14,10 +14,24 @@ Además, existen operaciones que sirven para todos los _tipos de datos_, por eje
 
 **Es importante usar las operaciones correctas con los tipos de datos correctos**, por ejemplo, no tiene sentido sumar dos booleanos o hacer operaciones booleanas con los números. **Si usas operaciones que no corresponden, cosas muy raras y malas pueden pasar**. :confounded:
 
-> Probá en la consola las siguientes cosas:
+> Probá en la consola las siguientes expresiones en orden:
 >
-> * `5 + 6` (ok, los números se pueden sumar)
-> * `5 === 6` (ok, todas las cosas se pueden comparar)
-> * `8 > 6` (ok, los números se pueden ordenar)
-> * `!true` (ok, los booleanos se pueden _negar_)
-> * `false / true` (no está bien, ¡los booleanos no se pueden dividir!)
+>``` javascript
+ム 5 + 6 // ok, los números se pueden sumar
+```
+>
+>``` javascript
+ム 5 === 6 // ok, todas las cosas se pueden comparar
+``` 
+>
+>``` javascript
+ム 8 > 6 // ok, los números se pueden ordenar
+```
+>
+>``` javascript
+ム !true // ok, los booleanos se pueden negar
+```  
+>
+>``` javascript
+ム false / true // no está bien, ¡los booleanos no se pueden dividir!
+```
