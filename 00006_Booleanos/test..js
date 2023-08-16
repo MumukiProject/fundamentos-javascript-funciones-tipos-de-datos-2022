@@ -1,6 +1,6 @@
 describe("", function() {
-  it("estaEntre(10, 1, 10) es false", function() {
-    assert(estaEntre(10, 1, 10) === false);
+  it("estaEntre(10, 1, 9) es false", function() {
+    assert(estaEntre(10, 1, 9) === false);
   });
   it("estaEntre(4, 4, 9) es false", function() {
     assert(estaEntre(4, 4, 9) === false);

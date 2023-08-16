@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_tests_failed:
     - longitudNombreCompleto no falta contemplar el espacio
   then: Parece que no estás contemplando el espacio; la `longitudNombreCompleto` debe

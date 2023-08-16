@@ -1,12 +1,10 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_tests_failed:
     - estaEntre devuelve siempre algo
   then: no te olvides de usar `return` para devolver la expresión en `estaEntre`
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_tests_failed:
     - estaFueraDeRango devuelve siempre algo
   then: recordá usar `return` para devolver la expresión en `estaFueraDeRango`

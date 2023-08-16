@@ -1,12 +1,10 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - "* Declares:medallaSegunPuesto"
   then: 'cuidado, tenés que definir `medallaSegunPuesto` :medal:'
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - medallaSegunPuesto UsesIf
   then: 'si el puesto es `1` tenés que devolver `"oro"`, si el puesto es `2`, tenés
